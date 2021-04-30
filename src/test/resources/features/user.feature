@@ -22,7 +22,6 @@ Feature: User Verification
     Then UI,API and Database user information must be match
 
 
-
   @wip @db
   Scenario Outline:  three point verification(UI,DATABASE,API) DDF
     Given user logs in using "<email>" "<password>"
